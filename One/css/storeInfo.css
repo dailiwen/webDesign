@@ -1,0 +1,372 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+.wrap{
+	height: 2285px;
+	width: 100%;
+}
+
+/*******************************头部******************************************************/
+.nav{
+	height: 100px;
+	width: 100%;
+	background: url('../images/topMenuPicture.png')  center center;
+}
+
+.company{
+	border-radius: 50%;;
+	width: 90px;
+    height: 90px;
+	font-size: 18px;
+	color:white;
+	line-height: 90px;
+	border: 1px solid white;
+	background-color: rgb(123,71,22);
+	opacity:0.8;
+	margin:5px auto  auto;
+}
+
+#companyID{
+	font-family: 'STXingkai';
+}
+
+
+.nav ul{
+	list-style: none;
+}
+
+.nav ul a{
+	display: block;
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 18px;
+	color:white;
+	line-height: 100px;
+}
+
+.nav ul p{
+	font-family:'Microsoft YaHei';
+}
+
+.nav ul a:hover{
+	display: block;
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 18px;
+	color:rgb(101,54,10);
+	line-height: 100px;
+	background-color: white;
+}
+
+.nav ul li{
+	width: 140px;
+	height: 100px;
+	float: left;
+}
+
+.menu{
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+/****************************************头部************************************/
+.header{
+	height: 650px;
+	width: 100%;
+}
+
+.header img{
+	height: 100%;
+	width: 100%;
+}
+
+#tasty{
+	font-size: 55px;
+	letter-spacing:5px;
+}
+
+#tasty span{
+	border:2px solid rgb(238,112,35);
+}
+
+#special{
+	font-family: 'Microsoft YaHei';
+	font-size: 18px;
+	color: white;
+	background-color: rgb(238,112,35);
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 130px;
+}
+
+.arrowRight{
+	position: relative;
+	width: 80px;
+	height: 60px;
+	top: 50%;
+	float: left;
+	background:url('../images/turnRight.png');
+}
+
+/**********************主要部分********************************/
+.mainStore{
+	height:1415px;
+	width: 100%;
+	background-color: rgb(247,246,244);
+}
+
+.storeName{
+	height: 60px;
+	width:100%;
+}
+
+.storeName p{
+	line-height: 60px;
+	color: rgb(13,144,254);
+	font-family: 'Microsoft YaHei';
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.detail{
+	width: 1040px;
+	height: 1355px;
+	margin:0 auto;
+}
+
+.BigPicture{
+	width: 1018px;
+	height:644px;
+	background-color: black;
+	opacity: 0.8;
+	z-index:999;
+	position: absolute;
+	left: 12%;
+	top: 120%;
+	display: none;
+}
+
+.leftArrow{
+	position: relative;
+	width: 80px;
+	height: 60px;
+	top: 50%;
+	float: left;
+	background:url('../images/turnLeft.png');
+}
+
+.rightArrow{
+	position: relative;
+	width: 80px;
+	height: 60px;
+	top: 50%;
+	float: left;
+	background:url('../images/turnRight.png');
+}
+
+.showBig{
+	width: 592px;
+	height: 423px;
+	top:115px;
+	background: url('../images/showPicture_big.png') center center;
+    margin: 0px 133px 0px 133px;
+	position: relative;
+	float: left;
+	opacity: 1;
+}
+
+.out{
+	width: 64px;
+	height: 64px;
+	background-color: red;
+	position: relative;
+    left: 980px;
+    top: -30px;
+    background:url('../images/out.png') center center; 
+    border-radius: 64px; 
+    background-color: black;
+}
+
+.detailLeft{
+	width: 470px;
+	height: 1150px;
+	margin-right: 30px;
+	float: left;
+}
+
+.leftPicture{
+	margin-top: 10px;
+	width: 442px;
+	height: 310px;
+	background: url('../images/showPicture1.png') no-repeat center center;
+}
+
+.sf{
+	margin-top: 50px;
+	width: 440px;
+	height: 230px;
+}
+
+.shenFen{
+	font-weight: bold;
+}
+
+#guangDong{
+    height: 108px;
+    margin-top: 90px;
+}
+
+#heNan{
+	height: 110px;
+}
+
+#fuJian{
+	height: 65px;
+}
+
+.sf p{
+	text-align: right;
+}
+
+.sf1{
+	margin-top: 50px;
+	width: 440px;
+	height: 230px;
+}
+
+.sf1 p{
+	text-align: left;
+}
+
+#shanXi{
+	height: 170px;
+    margin-top: 63px;
+}
+
+#jiangSu{
+    height: 108px;
+}
+
+#huBei{
+	height: 107px;
+}
+
+#ganSu{
+	height: 110px;
+}
+
+.rightPicture{
+	margin-top: 10px;
+	width: 442px;
+	height: 310px;
+	background: url('../images/showPicture.png') no-repeat center center;
+}
+
+.detailMiddle{
+	width: 22px;
+	height: 1279px;
+	float: left;
+	background:url('../images/segmentingLine .png') center center;
+}
+
+.detailRight{
+	margin-top: 165px;
+    margin-left: 30px;
+    width: 470px;
+    height: 1150px;
+    float: left;
+}
+
+.detail p{
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+
+
+/**********************底部*************************************/
+
+.footer{
+	height: 130px;
+	width: 100%;
+	background: url('../images/topMenuPicture.png')  center center;
+}
+
+.footerInfo{
+	width: 1024px;
+	height: 120px;
+	margin:0 auto;
+}
+
+.logoLeft{
+	position: relative;
+	width: 100px;
+	height: 65px;
+	top: 30px;
+	float: left;
+	background: url('../images/logo.png')  center center;
+}
+
+.address{
+	position: relative;
+	top: 30px;
+	width: 260px;
+	height: 65px;
+	float: left;
+	margin-left: 30px;
+}
+
+.address p{
+	font-family: 'Microsoft YaHei';
+	font-size: 13px;
+	color: white;
+}
+
+#companyFooter{
+	position: relative;
+	top: 15px;
+}
+
+.contactInformation{
+	position: relative;
+	width: 380px;
+	height: 120px;
+	float: left;
+	margin-left: 630px;
+	top: -92px;
+}
+
+.contactInformation p{
+	display: inline;
+	position: relative;
+	top: -10px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Microsoft YaHei';
+}
+
+.phone{
+	width: 280px;
+	height: 30px;
+	position: relative;
+	top: 65px;
+	left: 100px;
+}
+
+.email{
+	width: 280px;
+	height: 30px;
+	position: relative;
+	top: -10px;
+	left: 0px;
+}
+

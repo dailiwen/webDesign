@@ -1,0 +1,69 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+<title> 学生信息管理系统 </title>
+    <link type="text/css" rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="BootstrapTable/bootstrap-table.css">
+    <link type="text/css" rel="stylesheet" href="index.css" />
+
+    
+</head>  
+<body>
+    <div></div>
+
+    <div id="head">
+        <ul>
+            <li>
+                <img id="left" src="img/1.png">
+                <span id="title">学生信息管理系统</span>
+                <img id="right" src="img/1.png">
+            </li>
+        </ul>
+    </div>
+
+    <div id="controller">
+        <button id="new">新增</button>
+        <button id="delete">删除</button>
+        <!-- <div id="searchPlate">
+            <button id="search">搜索</button>
+            <input id="searchInput" type="text/password" name="search" placeholder="输入关键字检索" />
+        </div> -->
+    </div>
+    <div id="outtable">
+        <table id="table"></table>
+    </div>
+
+    <div id="all">
+        <div id="popUp">
+            <div id="inforTitle">
+                <span id="inTitle">新增学生信息</span>
+                <img id="imgCancel" src="img/2.png">
+            </div>
+            <div id="inforInput">
+                <form>
+                    学号<input type="text" id="number" placeholder="请输入学号"><br>
+                    姓名<input type="text" id="name" placeholder="请输入姓名"><br>
+                    学院<input type="text" id="college" placeholder="请输入学院"><br>
+                    专业<input type="text" id="profession" placeholder="请输入专业"><br>
+                    年级<input type="text" id="grade" placeholder="请输入年级"><br>
+                    班级<input type="text" id="class" placeholder="请输入班级"><br>
+                    年龄<input type="text" id="old" placeholder="请输入年龄">
+                </form>
+            </div>
+            <hr style="background-color:#f1f1f1;border:0px;height:2px"/>
+            <div id="inforBottom">
+                <button id="define">确定</button>
+                <button id="updatedefine">确定</button>
+                <button id="cancel">取消</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>   
+    <script type="text/javascript" src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="BootstrapTable/bootstrap-table.js"></script>
+    <script type="text/javascript" src="BootstrapTable/bootstrap-table-zh-CN.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+</body>  
+</html> 

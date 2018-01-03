@@ -1,0 +1,371 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html{
+	height: 100%;
+	width: 100%;
+}
+
+.wrap{
+	height: 1455px; 
+	width: 100%;
+}
+
+/*******************************头部******************************************************/
+.takeIn{
+	width: 140px;
+	height: 70px;
+	background-color: rgb(255,255,255);
+	position: absolute;
+    top: 100px;
+    right: 185px;
+    z-index: 999;
+    display: none;
+}
+
+.takeIn p{
+	line-height: 35px;
+}
+
+.companyIn:hover{
+	background-color: rgb(145,83,27);
+	color: rgb(255,255,255);
+}
+
+.joinUs:hover{
+	background-color: rgb(145,83,27);
+	color: rgb(255,255,255);
+}
+
+.nav{
+	height: 100px;
+	width: 100%;
+	background: url('../images/topMenuPicture.png')  center center;
+}
+
+.company{
+	border-radius: 50%;;
+	width: 90px;
+    height: 90px;
+	font-size: 18px;
+	color:white;
+	line-height: 90px;
+	border: 1px solid white;
+	background-color: rgb(123,71,22);
+	opacity:0.8;
+	margin:5px auto  auto;
+}
+
+#companyID{
+	font-family: 'STXingkai';
+}
+
+
+.nav ul{
+	list-style: none;
+}
+
+.nav ul a{
+	display: block;
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 18px;
+	color:white;
+	line-height: 100px;
+}
+
+.nav ul p{
+	font-family:'Microsoft YaHei';
+}
+
+.nav ul a:hover{
+	display: block;
+	text-decoration: none;
+	margin: 0 auto;
+	font-size: 18px;
+	color:rgb(101,54,10);
+	line-height: 100px;
+	background-color: white;
+}
+
+.nav ul li{
+	width: 140px;
+	height: 100px;
+	float: left;
+}
+
+.menu{
+	width: 980px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+/****************************************头部************************************/
+.header{
+	height: 650px;
+	width: 100%;
+}
+
+.header img{
+	height: 100%;
+	width: 100%;
+}
+
+#tasty{
+	font-size: 55px;
+	letter-spacing:5px;
+}
+
+#tasty span{
+	border:2px solid rgb(238,112,35);
+}
+
+#special{
+	font-family: 'Microsoft YaHei';
+	font-size: 18px;
+	color: white;
+	background-color: rgb(238,112,35);
+	width: 300px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 130px;
+}
+
+.arrowRight{
+	position: relative;
+	width: 80px;
+	height: 60px;
+	top: 50%;
+	float: left;
+	background:url('../images/turnRight.png');
+}
+
+/**********************主要部分********************************/
+.main{
+	height:860px;
+	width: 100%;
+	background-color: rgb(247,246,244);
+}
+
+.split{
+	width: 1025px;
+	height: 80px;
+	margin-top: 10px;
+    margin: 20px auto 0 auto;
+}
+
+.split hr{
+	width: 445px;
+	float: left;
+	margin-top: 20px;
+	border:1px solid rgb(112,45,19);
+}
+
+.split p{
+	font-family: 'Microsoft YaHei';
+	float: left;
+	color: rgb(112,45,19);
+	font-size: 20px;
+	font-weight:bold;
+	line-height: 40px;
+}
+
+.split span{
+	color: rgb(112,45,19);
+	font-size: 20px;
+	font-weight:bold;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.mainContent{
+	width: 1025px;
+	height: 485px;
+	margin:0 auto;
+}
+
+
+.mainContent p{
+	font-family: 'Microsoft YaHei';
+	text-indent:2em;
+	margin-bottom: 5px;
+	line-height: 28px;
+}
+
+.detailPicture{
+	width: 1030px;
+	height: 780px;
+	/*background-color: black;*/
+	margin:0 auto;  
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.picture{
+	width: 280px;
+	height: 390px;
+	margin-right: 43px;
+	/*background-color: red;*/
+}
+
+#picture1{
+	background: url('../images/showP1.png') center center;
+}
+
+#paofu: hover{
+	color: black;
+}
+#picture2{
+	background: url('../images/showP2.png') center center;
+}
+
+#picture3{
+	background: url('../images/showP3.png') center center;
+}
+
+#picture4{
+	background: url('../images/showP4.png') center center;
+}
+
+#picture5{
+	background: url('../images/showP5.png') center center;
+}
+
+#picture6{
+	background: url('../images/showP6.png') center center;
+}
+
+.innerPicture{
+	width: 280px;
+	height: 224px;
+	/*background-color: green; */
+}
+
+.innerWord{
+	width: 300px;
+	height: 152px;
+	background-color: rgb(255,255,255);
+}
+
+.nameOfProduction{
+	font-family: 'Microsoft YaHei';
+	color: rgb(112,45,19);
+	font-size: 20px;
+	font-weight:bold;
+	line-height: 40px;
+	color: rgb(237,109,0);
+}
+
+.string{
+    position: relative;
+    top: -27px;
+    left: 102px;
+}
+
+.intro{
+	font-family: 'Microsoft YaHei';
+	text-indent: 2em;
+	color: black;
+	font-size: 14px;
+    margin-top: -20px;
+}
+
+.string{
+	font-family: 'Microsoft YaHei';
+	color: rgb(112,45,19);
+	font-size: 20px;
+	font-weight:bold;
+	line-height: 40px;
+	color: rgb(237,109,0);
+}
+
+.string1{
+	font-family: 'Microsoft YaHei';
+	color: rgb(112,45,19);
+	font-size: 20px;
+	font-weight:bold;
+	line-height: 40px;
+	color: rgb(237,109,0);
+	position: relative;
+    top: -27px;
+    left: 123px;
+}
+
+/**********************底部*************************************/
+
+.footer{
+	height: 130px;
+	width: 100%;
+	background: url('../images/topMenuPicture.png')  center center;
+}
+
+.footerInfo{
+	width: 1024px;
+	height: 120px;
+	margin:0 auto;
+}
+
+.logoLeft{
+	position: relative;
+	width: 100px;
+	height: 65px;
+	top: 30px;
+	float: left;
+	background: url('../images/logo.png')  center center;
+}
+
+.address{
+	position: relative;
+	top: 30px;
+	width: 260px;
+	height: 65px;
+	float: left;
+	margin-left: 30px;
+}
+
+.address p{
+	font-family: 'Microsoft YaHei';
+	font-size: 13px;
+	color: white;
+}
+
+#companyFooter{
+	position: relative;
+	top: 15px;
+}
+
+.contactInformation{
+	position: relative;
+	width: 380px;
+	height: 120px;
+	float: left;
+	margin-left: 630px;
+	top: -92px;
+}
+
+.contactInformation p{
+	display: inline;
+	position: relative;
+	top: -10px;
+	color: white;
+	font-size: 15px;
+	font-family: 'Microsoft YaHei';
+}
+
+.phone{
+	width: 280px;
+	height: 30px;
+	position: relative;
+	top: 65px;
+	left: 100px;
+}
+
+.email{
+	width: 280px;
+	height: 30px;
+	position: relative;
+	top: -10px;
+	left: 0px;
+}
